@@ -1,0 +1,43 @@
+
+.banner-area{
+    height: 100vh;
+    h2 {
+        font-size: 80px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: capitalize;
+        line-height: 100px;
+    }
+        h4 {
+            font-size: 24px;
+            color: #fff;
+            font-size: 700;
+            font-weight: 700;
+            text-transform: capitalize;
+        }
+            
+}
+
+.btn{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-radius: 5px;
+    &.btn-primary{
+        background-color: tomato;
+        padding: 10px 15px;
+        &:hover{
+            background-color: red;
+        }
+    }
+    &.btn-border{
+        border: 2px solid red;
+        padding: 8px 15px;
+        margin-left: 8px;
+        &:hover{
+            background-color: red;
+        }
+    }
+}

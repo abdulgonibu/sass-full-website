@@ -1,0 +1,38 @@
+.about-area{
+    .about-image{
+        img{
+          
+        }
+    }
+    .about-content{
+        h2{
+            font-size: 50px;
+            line-height: 60px;
+        }
+
+        h4{
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+        
+        p{
+           margin-bottom: 10px;
+        }
+
+        ul{
+            margin-left: 15px;
+            li{
+             text-transform: capitalize;
+             font-size: 18px;
+             margin-bottom: 10px;
+             i{
+                 color: red;
+                 margin-right: 10px;
+             }
+            }
+        }
+        a{
+
+        }
+    }
+}
